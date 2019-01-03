@@ -1,0 +1,36 @@
+#new-punch {
+    margin: 0 auto;
+    width: 600px;
+    text-align: left;
+    /* border: solid lightgray 1px; */
+    background-color: #fcfcfc;
+    box-shadow: 0 2px 4px rgba(41, 47, 54, 0.5);
+    border-radius: 2px;
+    position: relative;
+    padding: 20px;
+}
+#date, #day, #time, #type {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+}
+#day, #type {
+    margin-left: 20px;
+}
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.6em;
+}
+#time > h3 {
+    display: inline;
+}
+#buttons {
+    text-align: right
+}
+input {
+    width: 160px;
+}
+select, input {
+    font-size: .9em;
+    font-family: 'Oswald', sans-serif;
+}
